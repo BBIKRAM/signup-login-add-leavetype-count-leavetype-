@@ -1,0 +1,16 @@
+
+https://localhost:44314/api/takeleave
+{
+  "name": "bikram",
+  "leaveType": "stomach pain"
+}
+
+https://localhost:44314/login
+{
+  "name": "bikram",
+  "password": "bikram"
+}
+
+https://localhost:44314/api/countleave?leavetype=stomach%20pain
+
+https://localhost:44314/api/countleavewithuser?Name=bikram&leavetype=stomach%20pain
